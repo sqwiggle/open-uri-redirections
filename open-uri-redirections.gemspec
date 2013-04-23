@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'open_uri_redirections/version'
+require 'open-uri-redirections/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "open_uri_redirections"
+  gem.name          = "open-uri-redirections"
   gem.version       = OpenUriRedirections::VERSION
   gem.authors       = ["Jaime Iniesta", "Gabriel Cebrian"]
   gem.email         = ["jaimeiniesta@gmail.com"]
   gem.description   = %q{OpenURI patch to allow redirections between HTTP and HTTPS}
   gem.summary       = %q{OpenURI patch to allow redirections between HTTP and HTTPS}
-  gem.homepage      = "https://github.com/jaimeiniesta/open_uri_redirections"
+  gem.homepage      = "https://github.com/sqwiggle/open-uri-redirections"
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(spec)/})

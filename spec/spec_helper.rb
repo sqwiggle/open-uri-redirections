@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 $: << File.join(File.dirname(__FILE__), "/../lib")
-require 'open_uri_redirections'
+require 'open-uri-redirections'
 require 'fakeweb'
 
 FakeWeb.allow_net_connect = false

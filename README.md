@@ -1,4 +1,4 @@
-# OpenUriRedirections [![Build Status](https://secure.travis-ci.org/jaimeiniesta/open_uri_redirections.png)](http://travis-ci.org/jaimeiniesta/open_uri_redirections) [![Dependency Status](https://gemnasium.com/jaimeiniesta/open_uri_redirections.png)](https://gemnasium.com/jaimeiniesta/open_uri_redirections)
+# OpenUriRedirections 
 
 This gem applies a patch to OpenURI to optionally allow redirections from HTTP to HTTPS, or from HTTPS to HTTP.
 
@@ -17,7 +17,7 @@ And here is how you can use this patch to follow the redirections:
     $ irb
     1.9.2p320 :001 > require 'open-uri'
     => true 
-    > require 'open_uri_redirections'
+    > require 'open-uri-redirections'
     => true 
     1.9.2p320 :002 > open('http://github.com', :allow_redirections => :safe)
     => #<File:/var/folders/...>
@@ -46,7 +46,7 @@ Use it at your own risk!
 
 Add this line to your application's Gemfile:
 
-    gem 'open_uri_redirections'
+    gem 'open-uri-redirections'
 
 And then execute:
 
@@ -54,7 +54,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install open_uri_redirections
+    $ gem install open-uri-redirections
 
 ## Contributing
 
